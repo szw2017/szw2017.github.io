@@ -1,1 +1,111 @@
-<p>HELLO</p>
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://www.icst.pku.edu.cn/struct/people/yangs/index.html -->
+<html class="csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Zhengwen Shen</title>
+		<link href="./ZhengwenShen_files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./ZhengwenShen_files/style.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./ZhengwenShen_files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">		
+		<link href="./ZhengwenShen_files/css" rel="stylesheet" type="text/css">	
+	</head>
+	<body>
+		<!---start-wrap--->
+		<!---start-header--->
+	<div class="header">
+		<div class="wrap">
+			<!---start-logo--->
+			<div class="logo">
+				<a href="./index.html">Zhengwen Shen</a>
+			</div>
+			<!---End-logo--->
+			<!---start-top-nav--->
+			<div class="top-nav">
+				<ul>
+					<li id="Home" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">Home</a></li>
+					<li id="Profile" onclick="func(&#39;Experience&#39;)"><a href="./index.html" class="scroll">Profile</a></li>
+					<li id="Research" onclick="func(&#39;Research&#39;)"><a href="./index.html" class="scroll">Research</a></li>
+					<li id="Publications" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html" class="scroll">Publications</a></li>
+                    <li id="Talks" onclick="func(&#39;Publications&#39;)"><a href="./index.html" class="scroll">Talks</a></li>
+					<!-- <li id="Art" onclick="func(&#39;Art&#39;)"><a href="http://www.icst.pku.edu.cn/struct/people/yangs/index.html#art" class="scroll">Art Gallery</a></li>	-->
+					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">Contact</a></li>
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			<!---End-top-nav--->
+	     </div>
+	</div>
+	
+	<script> 
+	var lastname = 'Me';
+	function func(name){
+		var div = document.getElementById(name); 
+		div.className = 'active'; 
+		div = document.getElementById(lastname); 
+		div.className = ''; 
+		lastname = name;
+	}
+	function coming_soon()
+	{
+		alert("Coming soon.");
+	}
+	</script> 
+	
+		<!---End-wrap--->
+	<div class="content">
+		<div class="grid1" id="me">
+			<div class="welcome-photo">
+				<a class="welcome-photo1"><img id="me1" src="./ZhengwenShen_files/ZhengwenShen.jpg" title="name"></a>
+			</div>
+			<h3>Zhengwen Shen (申政文)</h3>
+            <br>
+			<p align="left"> 
+            He received his PhD (Sep, 2018) in Computer Application Technology from Peking University. 
+            From September 2012 – September 2018, he was a Ph.D. candidate in Institute of Computer Science &amp; Technology of Peking University (<a href="http://www.icst.pku.edu.cn/"><strong>ICST</strong></a>). He was a member of Spatial and Temporal Restoration Understanding and Compression Team (<a href="http://www.icst.pku.edu.cn/struct/"><strong>STRUCT</strong></a>) at ICST. <a href="./att/CV Wenhan Yang 2018-1121.pdf">[<b>CV</b>]</a> </p> 
+		</div>
+		<div class="grid3" id="experience" >
+			<div class="grid3-header">
+				<h3 align='left'>Highlights</h3>
+			</div>
+			<div class="grid3-content"  style="align:left;width:85%">
+				<div class="grid3-content">
+					<ul class="graid3-ul" style="align:left;list-style: disc;">
+			<!-- <li> [Announcement] 03/2019, I still noticed that, 
+			some recent papers mention that, Rain100L and Rain100H include some overlapped backgournd images or wrong number of images. 
+			I need to mention that, the datasets online before Nov. 2018 might be not the correct one. 
+			I have updated the correct one in the <a href="http://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html">project link</a> after that.
+			There are no backgournd images overlapped in the training and testing sets. The numbers of training images in Rain100L and Rain100H are both 1800.
+			Thanks for my colleages (Xia Li at PKU and Renjie Wan at NTU) helping me correct the issue. 
+			If you have used the datasets online before Nov. 2018, 
+			I think it is a reasonable remedy to manually screen out the overlapped background images as Dongwei Ren does in <a href="https://arxiv.org/pdf/1901.09221.pdf">PReNet</a>.
+			If you have still questions or need help, please do not hesitate to contact with me. -->
+			<!--  <li> [Code] 02/2020, code link of our AAAI-2020 paper "Towards Scale-Free Rain Streak Removal via Self-Supervised Fractal Band Learning": <a href="https://github.com/flyywh/AAAI-2020-FBL-SS">FBL-SS</a> </li> -->
+                        <li> [Publication] 09/2020, One paper accepted to <i>IEEE TIP</i>. </li>
+			<li> [Publication] 07/2020, Four papers accepted to <i>ACM MM</i>. </li>
+					</ul>
+				</div>
+			</div>			
+		</div>
+
+
+		<!-- <div class="grid2" id="contact">
+			<div class="grid2-content">
+				<p>Contact Email: williamyang AT pku.edu.com</p>			
+			</div>			
+		</div> -->
+		<div class="footer">
+            <p>Updated June 2018 
+            <!--2018 Shuai Yang. Powered by <a href="http://w3layouts.com/">w3layouts</a>, <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a>, <a href="http://getbootstrap.com/2.3.2/">bootstrap</a>, <a href="http://isotope.metafizzy.co/">Isotope</a>-->
+            </p>
+		</div> 
+	</div>
+	
+		<script type="text/javascript" src="./ZhengwenShen_files/jquery.min.js.下载"></script>
+		<script type="text/javascript" src="./ZhengwenShen_files/bootstrap.js.下载"></script>
+		<script type="text/javascript" src="./ZhengwenShen_files/jquery.banner.js.下载"></script>
+		<script type="text/javascript" src="./ZhengwenShen_files/jquery.prettyPhoto.js.下载"></script>		
+		<script type="text/javascript" src="./ZhengwenShen_files/jquery.isotope.js.下载"></script>	
+		<script type="text/javascript" src="./ZhengwenShen_files/main.js.下载"></script>				
+	
+
+
+</body></html>
